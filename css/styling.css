@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+.cover{
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.child-elements{
+    max-width: fit-content;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#yes{
+    padding: 15px 30px;
+    font-size: 2rem; /* Kept this from original */
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    background-color: #a3036d;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+
+#yes:hover{
+    background-color: #75014f;
+    transition-duration: 0.3s;
+}
+
+#no {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #f4d4d5;
+    border: none;
+    border-radius: 7px;
+    color: #a3036d;
+    position: absolute;
+    transition: transform 0.3s ease-out;
+}
+
+#second-cover{
+    padding-top: 30px;
+}
+#img-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main-text{
+    font-family: 'dancing script', cursive;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+    font-size: 2.5rem;
+    text-align: center;
+    color:#75014f;
+    background-color: #f4d4d5;
+
+}
+#heartbreaker, #ily{
+    max-width: 80%;
+    max-height: 80%;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
